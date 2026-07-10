@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — ALESIRA NEEDOM</title>
+<meta name="description" content="Get in touch with NEEDOM ALESIRA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-name">NEEDOM ALESIRA</span>
+      <span class="brand-tag">Academic Portfolio</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Get in touch</span>
+        <h1>Contact</h1>
+        <p>Have a question, opportunity, or just want to connect? Fill out the form below.</p>
+      </div>
+
+      <form id="contact-form" class="form-grid" novalidate>
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name">
+          <span class="error-msg" id="name-error"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+          <span class="error-msg" id="email-error"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Digits only, e.g. 08012345678">
+          <span class="error-msg" id="phone-error"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="message-subject">Subject</label>
+          <input type="text" id="message-subject" name="message-subject" placeholder="What is this about?">
+        </div>
+
+        <div class="form-field full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+          <span class="error-msg" id="message-error"></span>
+        </div>
+
+        <div class="form-field full">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div id="form-status" class="form-status"></div>
+        </div>
+      </form>
+
+      <div class="contact-info">
+        <div class="card">
+          <div class="card-body">
+            <h3>Email</h3>
+            <p><a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>Phone</h3>
+            <p>[YOUR PHONE NUMBER]</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>Location</h3>
+            <p>[YOUR CITY, COUNTRY]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="citation">
+      ALESIRA NEEDOM. (<span id="year"></span>). <em>Academic Portfolio</em>. Retrieved from [YOUR WEBSITE URL].
+    </p>
+    <ul class="footer-links">
+      <li><a href="http://www.linkedin.com/in/alesira-needom">LinkedIn</a></li>
+      <li><a href="https://github.com/alesira-nee219">GitHub</a></li>
+      <li><a href="mailto:a.needom7508@miva.edu.ng">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
